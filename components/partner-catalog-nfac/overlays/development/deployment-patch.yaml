@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: partner-catalog-nfac
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/eozkan-tenant/partner-catalog/partner-catalog-nfac@sha256:4ea9f0973bd9accae07944b1d23dcc3b203244609959be50979d92c1994a55da
+        name: my-java-springboot
+        resources: {}
+status: {}
