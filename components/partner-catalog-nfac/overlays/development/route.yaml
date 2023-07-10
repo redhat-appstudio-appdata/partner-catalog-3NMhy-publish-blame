@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: partner-catalog-nfac
     app.kubernetes.io/part-of: partner-catalog
-  name: partner-catalog-nfacwmd8
+  name: partner-catalog-nfac2lyo
 spec:
   path: /
   port:
