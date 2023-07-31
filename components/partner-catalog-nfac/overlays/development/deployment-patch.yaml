@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/eozkan-tenant/partner-catalog/partner-catalog-nfac@sha256:13f69f224bea574b10a7ff3a517dd6f86e57f568d45a684c20c322099c11c1b2
+      - image: quay.io/redhat-user-workloads/eozkan-tenant/partner-catalog/partner-catalog-nfac@sha256:4ea9f0973bd9accae07944b1d23dcc3b203244609959be50979d92c1994a55da
         name: my-java-springboot
         resources: {}
 status: {}
