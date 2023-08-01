@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: partner-catalog-nfac
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/eozkan-tenant/partner-catalog/partner-catalog-nfac@sha256:a1210685c257a5fb1633a72c3001def0d46dc867b6085d77200728eeea1403ca
+      - image: quay.io/redhat-user-workloads/eozkan-tenant/partner-catalog/partner-catalog-nfac@sha256:09aab2deacf028f0144b303e213e3f2447c55c4ace958d0e959e155e64f283f3
         name: my-java-springboot
         ports:
         - containerPort: 8081
